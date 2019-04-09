@@ -54,6 +54,11 @@ body {
     background-color: #1E1F29;
 }
 
+#top-header>.contenedor>.links-header img{
+    height: 18px;
+    vertical-align: middle;
+}
+
 .links-header {
     color: #fff;
 }
@@ -96,11 +101,14 @@ a {
     padding-left: 15px;
 }
 
-.header-logo .logo img{
+.header-logo>.logo>img{
     display: block;
     width: 198px;
 }
 
+.carrito{
+    width: 50px;
+}
 .row {
 
     content: " ";
@@ -123,7 +131,11 @@ a {
     float: right;
     text-align: right;
 }
-
+.login img{
+    
+    height: 25px;
+    vertical-align: middle;
+}
 .buscador {
     padding: 15px 0px;
 }
@@ -134,9 +146,9 @@ a {
 }
 
 .input-buscador {
+    padding: 15px 0;
     height: 25px;
     width: 50%;
-    border: 1px solid #000;
     background-color: #FFF;
 }
 
@@ -154,3 +166,8 @@ a {
     position: relative;
     display: block;
 }
+
+.ul-menu>li>a , .block-esquina>.login{
+    color: #fff;
+}
+
