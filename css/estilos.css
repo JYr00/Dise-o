@@ -9,6 +9,7 @@ and open the template in the editor.
 */
 * {
     margin: 0;
+    padding: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -40,6 +41,8 @@ ul {
 }
 
 body {
+    background: linear-gradient(to bottom, #000077, #fff);
+
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #333;
@@ -126,6 +129,7 @@ a {
     float: left;
 }
 .block-esquina {
+    margin-right: 15px;
     margin-top: -15px;
     position: relative;
     float: right;
@@ -136,20 +140,31 @@ a {
     height: 25px;
     vertical-align: middle;
 }
-.buscador {
-    padding: 15px 0px;
-}
 
-.carro {
+.carro, .buscador {
     padding: 15px 0px;
     text-align: center;
 }
 
+
 .input-buscador {
-    padding: 15px 0;
-    height: 25px;
-    width: 50%;
+    padding: 8px 0;
+    width: 75%;
     background-color: #FFF;
+}
+
+.boton-buscar {
+
+    width: 35px;
+    height: 35px;
+    background-color: #840000;
+    border-color: #FFF;
+}
+
+.boton-buscar img{
+    padding: 0;
+    height: 20px;
+    margin: -5px;
 }
 
 /*      NAV      */
@@ -159,15 +174,79 @@ a {
     margin-bottom: 0;
     float: left;
     margin: 0;
+    width: 50%;
 }
 
 .ul-menu>li{
     float: left;
-    position: relative;
-    display: block;
+    margin-left: 15px;
 }
 
 .ul-menu>li>a , .block-esquina>.login{
     color: #fff;
+    
 }
 
+#slider {
+    overflow: hidden;
+    margin: 50px;
+}
+
+#slider figure {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite ease-in-out ;
+}
+
+#slider figure {
+    
+    width: 500%;
+    float: left;
+}
+
+#slider figure img {
+    width: 10%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: 0;
+    }
+
+    50% {
+        left: -100%;
+    }
+
+    75% {
+        left: -100%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+h2{
+    margin-top: 15px;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+}
+
+.footer {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
