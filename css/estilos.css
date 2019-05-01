@@ -25,7 +25,7 @@ ul {
     list-style: none
 }
 
-.contenedor {
+.contenedor, .cont-footer{
     display: table;
     width: 100%;
     padding-right: 15px;
@@ -131,20 +131,21 @@ a {
     text-align: right;
 }
 
-.login img{
+.login img, .footer2 img {
     margin-right: 5px;
     height: 25px;
     vertical-align: middle;
 }
 
 .carro, .buscador {
-    padding: 15px 0px;
+    padding: 15px 0px 15px 10px;
     text-align: center;
 }
 
 
+
 .input-buscador {
-    padding: 8px 0;
+    padding: 8px 0 8px 8px;
     width: 75%;
     background-color: #FFF;
 }
@@ -202,7 +203,7 @@ a {
     float: left;
 }
 
-#slider figure img, .contenedor>.sub-contenedorimg{
+#slider figure img {
     width: 10%;
     float: left;
 }
@@ -240,16 +241,18 @@ a {
 }
 
 h2{
-    margin-top: 15px;
+    margin: 50px 0;
     text-align: center;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
-}
+}   
 
-footer {
+
+.cont-footer {
     background: #000;
     color: #fff;
+    padding-bottom:2em;
 }
 
 .footer {
@@ -257,3 +260,56 @@ footer {
     width: 25%;
     text-align: center;
 }
+
+.sub-contenedor {
+    color: #000;
+    position: relative;
+    float: left;
+    width: 40%;
+    text-align: center;
+    margin: 3em;
+}
+
+.sub-contenedor img {
+    width: 60%;
+    border: #000 solid;
+}
+
+p {
+    text-align: justify;
+    font-size: 14px;
+    
+}
+
+.pfooter {
+    margin: 0 5em;
+  
+}
+
+h3 {
+    margin-bottom: 1em;
+    font-size: 30px;
+}
+
+h4 {
+    margin: 1em 0;
+    font-size: 20px;
+} 
+
+.footer2{
+    margin: 0 5em;
+    text-align: justify;
+}
+
+.footer2 img,.links-header img{
+    height: 18px;
+}
+
+.servicios {
+    margin: 0 5em;
+    text-align: initial;
+ }
+
+ .servicios>li, .footer2>li{
+     margin-bottom: 1em;
+ }
