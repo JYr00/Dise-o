@@ -22,7 +22,7 @@ div {
 ul {
     margin: 0;
     padding: 0;
-    list-style: none
+    list-style: none;
 }
 
 .contenedor, .contenav, .cont-footer{
@@ -60,7 +60,6 @@ body {
 .links-header {
     color: #fff;
 }
-
 
 a {
     font-weight: 500;
@@ -283,7 +282,6 @@ a {
     background: #000;
     color: #fff;
     padding-bottom: 2em;
-    margin-top: 5em;
 }
 
 .footer {
@@ -311,7 +309,7 @@ p {
 }
 
 h2{
-    margin: 50px 0 35px 0;
+    margin-bottom: 35px;
     text-align: center;
     color: #fff;
     font-family: 'Ubuntu', 'Lato', sans-serif;
@@ -370,3 +368,88 @@ h4 {
 .sobre {
     margin-left: -8px;
 }
+
+/* contactenos */
+
+.tabla {
+    width: 450px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.tabla td {
+    padding: 10px 15px;
+    color: #669;
+    border-top: 1px solid #fff;
+}
+
+.contformulario {
+    width: 70%;
+}
+
+.tabla {
+    margin: auto;
+}
+
+.tabla input {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.tabla tr:hover td {
+    background: #669;
+    color: #FFF;    
+}
+
+section {
+    padding: 5%;
+}
+
+.formulario{
+    padding: 25px;
+}
+
+.contenido-contact {
+    margin-bottom: 2%;
+    line-height: 1.6em;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 12pt;
+    color: #669;
+}
+
+.fondo-img {
+    background: url(../images/moto_negra.jpg);
+    background-size: 120% 120%;
+    padding: 5%;
+}
+
+.logo-favicon {
+    text-align: right;
+    margin: auto;
+    width: 30%;
+}
+
+.fondo-opacidad{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.75);
+    width: 100%;
+}
+
+.columna1 { 
+    text-align: right;
+    background: #d0dafd;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent
+}
+
+.botonesform {
+    color: #000077;
+    background: linear-gradient(to bottom, #fff,#ccc);
+}
+
+.botonesform:hover {
+    background: linear-gradient(to bottom, #ccc, #fff);
+}
+
+
