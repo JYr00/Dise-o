@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/estilos.css" />
     <link rel="icon" href="../images/favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto|Ubuntu" rel="stylesheet">
 </head>
 
 <body>
@@ -32,7 +33,7 @@
                     <div class="row">
                         <div class="block1">
                             <div class="header-logo">
-                                <a href="#" class="logo">
+                                <a href="../index.html" class="logo">
                                     <img src="../images/logo3.png" alt="Logo">
                                 </a>
                             </div>
@@ -61,27 +62,24 @@
     </header>
     <nav id="menu">
         <div id="nav">
-            <div class="contenedor">
+            <div class="contenav">
                 <ul class="ul-menu">
-                    <li><a href="#">Inicio</a></li>
+                    <li id="inicio"><a href="../index.html">Inicio</a></li>
                     <li><a href="#">Catalogo</a></li>
-                    <li><a href="#">Quienes Somos</a></li>
-                    <li><a href="#">Contactenos</a></li>
+                    <li><a href="quienes_somos.html">Quienes Somos</a></li>
+                    <li id="contactenos"><a href="#">Contactenos</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <section>
-        <h2>¿QUIENES SOMOS?</h2>
-        <div class="contenedor contenedor-top">
-            <div class="sub-contenedor">
-                <img src="../images/moto_frente.jpg" alt="imagen-ejemplo">
-            </div>
-            <div class="sub-contenedor">
+        <div class="contenido">
+            <h2>¿Quienes Somos?</h2>    
+            <div class="sub-co">
                 <p>
                     Winter Studios es una empresa colombiana
-                    fundada en el 2008, actualmente esta
-                    situada en Bogota, dedicada
+                    fundada en el 2008, actualmente est&aacute;
+                    situada en Bogot&aacute;, dedicada
                     principalmente en todo lo que tiene que
                     ver en la personalización de pintura en
                     motocicletas. Winter estudio ha progresado
@@ -90,23 +88,23 @@
                     han llegado a participar de eventos
                     nacionales de tuning de motos.
                 </p>
+                <hr>
             </div>
-        </div>
-        <div class="contenido">
-            <div class="sub-contenedor mv">
-                <h3>Misión</h3>
+            <div class="mv">
+                <h2>Misión</h2>
                 <p>
                     Somos una empresa que ofrece innovación y estilo a
                     nuestros usuarios por medio de pinturas personalizadas
                     en cada uno de sus artículos.
                 </p>
+                <hr>
             </div>
-            <div class="sub-contenedor mv">
-                <h3>Visión</h3>
+            <div class="mv">
+                <h2>Visión</h2>
                 <p>
                     Para el 2024 seremos reconocidos por nuestros diseños
                     innovadores y de buena calidad, sobresaliendo en el
-                    mundo del tunning, enfocándonos en nuestro crecimiento
+                    mundo del tuning, enfocándonos en nuestro crecimiento
                     de talento humano.
                 </p>
             </div>
@@ -123,9 +121,9 @@
             <div class="footer">
                 <h4>NUESTROS DATOS</h4>
                 <ul class="footer2">
-                    <li><img src="images/telefono_headerblanco.png" alt="Telefono">+57 312-345-6789</li>
-                    <li><img src="images/ubicacion_blanco.png" alt="Direccion">Bogota CraX#XX-XX</li>
-                    <li><img src="images/correoblanco.png" alt="Correo">email@email.com</li>
+                    <li><img src="../images/telefono_headerblanco.png" alt="Telefono">+57 312-345-6789</li>
+                    <li><img src="../images/ubicacion_blanco.png" alt="Direccion">Bogota CraX#XX-XX</li>
+                    <li><img src="../images/correoblanco.png" alt="Correo" class="sobre">email@email.com</li>
                 </ul>
             </div>
             <div class="footer">
@@ -138,9 +136,10 @@
                 </ul>
             </div>
             <div class="footer">
-                <h4>NUESTRO LOCAL</h>
-
-
+                <h4>NUESTRO LOCAL</h4>
+                    <div class="mapa">
+                        <img src="../images/mapa.jpg" alt="mapa">
+                    </div>
             </div>
         </div>
     </footer>
