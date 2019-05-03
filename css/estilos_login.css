@@ -8,25 +8,85 @@
 
 body { 
     background: linear-gradient(to bottom, #fff, #000077);
-    font-family: 'Segoe UI', sans-serif;
+    font-family:  'Ubuntu' , 'Roboto' , 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    display: flex;
+}
+
+.contenedor{
+    display: block;
 }
 
 .header {
     background: linear-gradient(to right, #000, #000077);
 }
 
-.logo a img{
-    border: 0;
-    height: 100px;
+.logo {
+    width: 50%;
+}
+
+.logo a{
     margin: 20px;
 }
 
+.logo a img{
+    border: 0;
+    height: 100px;
+}
+
+.botn-esquina {
+    margin: auto 0;
+    vertical-align: middle;
+    height: 100%;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    width: 45%;
+}
+
+.botn-esquina>a {
+    margin: 5px;
+    padding: 5px 20px;
+    font-weight: bold;
+    border: 0.5px solid #ccc;
+    text-align: right;
+    font-family: 'Ubuntu', 'Lato', sans-serif;
+    color: #FFF;
+    font-size: 10pt;
+}
+
 .backg{
+    display: block;
     background: #fff;
     width: 500px;
     margin: 20px auto;
     padding: 30px 100px;
     border: 2px solid #000;
+}
+
+.noselectbtn {
+    background: linear-gradient(to bottom, #ccc, #333, #333);
+}
+
+.noselectbtn:hover {
+    background: linear-gradient(to top , #ccc, #333, #333);
+}
+
+.noselectbtn:active {
+    background: linear-gradient(to top, #840000, #333);
+}
+
+.selectbtn {
+    background: linear-gradient(to bottom, #ccc, #333, #333);
+}
+
+.selectbtn:hover {
+    background: linear-gradient(to top, #840000, #333);
 }
 
 .imagen-usuario img {

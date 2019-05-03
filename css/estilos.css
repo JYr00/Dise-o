@@ -20,8 +20,6 @@ div {
 }
 
 ul {
-    margin: 0;
-    padding: 0;
     list-style: none;
 }
 
@@ -46,14 +44,13 @@ body {
 }
 
 #top-header {
-    font-family: OCR A;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #1e1e1e;
 }
 
-#top-header>.contenedor>.links-header img{
-    height: 18px;
+#top-header>.contenedor>.infohead>.links-header img{
+    height: 25px;
     vertical-align: middle;
 }
 
@@ -62,13 +59,12 @@ body {
 }
 
 a {
-    font-weight: 500;
-    -webkit-transition: 0.8s color;
-    transition: 0.8s color;
     text-decoration: none;
+    font-family: 'Ubuntu', 'Lato', sans-serif;
 }
 
 .links-header li {
+    vertical-align: middle;
     display: inline-block;
     margin-right: 15px;
     font-size: 10pt;
@@ -126,12 +122,55 @@ a {
 }
 
 .block-esquina {
-    position: fixed;
     margin-right: 15px;
     margin-top: -15px;
     position: relative;
     float: right;
     text-align: right;
+}
+
+.infohead {
+    display: table;
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+.botn-esquina {
+    width: 45%;
+    text-align: right;
+    position: relative;
+    float: left;
+}
+
+.botn-esquina a {
+    font-size: 10pt;
+    border: 0.5px solid #ccc;
+    padding: 5px 20px;
+    width: 100%;
+    color: #FFF;
+    font-weight: bold;
+}
+
+
+.noselectbtn {
+    background: linear-gradient(to bottom, #ccc, #333, #333);
+}
+
+.noselectbtn:hover {
+    background: linear-gradient(to top , #ccc, #333, #333);
+}
+
+.noselectbtn:active {
+    background: linear-gradient(to top, #840000, #333);
+}
+
+.selectbtn {
+    background: linear-gradient(to bottom, #ccc, #333, #333);
+}
+
+.selectbtn:hover {
+    background: linear-gradient(to top, #840000, #333);
 }
 
 .login img, .footer2 img {
@@ -306,6 +345,15 @@ p {
 
 .pfooter, .servicios, .footer2 {
     margin: 0 3em;
+}
+
+h1 {
+    text-shadow: 0px 0 10px #840000;
+    margin-bottom: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 24pt;
+    font-family: 'Lato', sans-serif;
 }
 
 h2{

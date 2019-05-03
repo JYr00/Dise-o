@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -16,31 +16,29 @@
             <div class="contenedor">
                 <div class="infohead">
                     <ul class="links-header">
-                        <li><img src="../images/telefono_header.png" alt="Telefono" class="telefono">+57
-                            312-345-6789
+                        <li><img src="../images/telefono_header.png" alt="Telefono" class="telefono">+57 312-345-6789
                         </li>
-                        <li><img src="../images/ubicacion.png" alt="Direccion" class="direccion">Bogota CraX#XX-XX
-                        </li>
+                        <li><img src="../images/ubicacion.png" alt="Direccion" class="direccion">Bogota CraX#XX-XX</li>
                         <li><img src="../images/correo.png" alt="Correo" class="Correo">email@email.com</li>
                     </ul>
                 </div>
                 <div class="botn-esquina">
-                        <a class="selectbtn" href=""><u>Español</u></a>
-                        <a class="noselectbtn" href="../en/contactenos_en.html">Ingles</a>
+                    <a class="noselectbtn" href="../pag/contactenos.html">Spanish</a>
+                    <a class="selectbtn" href=""><u>English</u></a>
                 </div>
             </div>
         </div>
         <div id="header">
             <div class="block-esquina">
-                <a href="login.html" class="login">
-                    <img src="../images/usuario.png" alt="Login">Inicio sesion
+                <a href="../en/login_en.html" class="login">
+                    <img src="../images/usuario.png" alt="Login">Sign in
                 </a>
             </div>
             <div class="contenedor">
                 <div class="row">
                     <div class="block1">
                         <div class="header-logo">
-                            <a href="../index.html" class="logo">
+                            <a href="../en/index_english.html" class="logo">
                                 <img src="../images/logo3.png" alt="Logo">
                             </a>
                         </div>
@@ -48,7 +46,7 @@
                     <div class="block2">
                         <div class="buscador">
                             <form>
-                                <input class="input-buscador" placeholder="  Buscar">
+                                <input class="input-buscador" placeholder="Search">
                                 <button class="boton-buscar">
                                     <img src="../images/lupa.png" alt="Boton de busqueda" class="lupa">
                                 </button>
@@ -70,17 +68,17 @@
         <div id="nav">
             <div class="contenav">
                 <ul class="ul-menu">
-                    <li id="inicio"><a href="../index.html">Inicio</a></li>
-                    <li><a href="#">Catalogo</a></li>
-                    <li><a href="quienes_somos.html">Quienes Somos</a></li>
-                    <li id="contactenos"><a href="#"><u>Contactenos</u></a></li>
+                    <li id="inicio"><a href="../en/index_english.html">Home</a></li>
+                    <li><a href="#">Catalogue</a></li>
+                    <li><a href="../en/quienes_somos_en.html">About us</a></li>
+                    <li id="contactenos"><a href="../en/contactenos_en.html"><u>Contact us</u></a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <section>
         <div class="contenido-contact">
-            <h1>CONTACTENOS</h1>
+            <h1>CONTACT US</h1>
             <div class="fondo-img">
                 <div class="fondo-opacidad">
                     <div class="logo-favicon">
@@ -91,7 +89,7 @@
                             <table class="tabla">
                                 <tr>
                                     <td class="columna1">
-                                        Nombre:
+                                        First name:
                                     </td>
                                     <td>
                                         <input type="text" name="nombre">
@@ -99,7 +97,7 @@
                                 </tr>
                                 <tr>
                                     <td class="columna1">
-                                        Apellidos:
+                                        Last name:
                                     </td>
                                     <td>
                                         <input type="text" name="apellidos">
@@ -107,7 +105,7 @@
                                 </tr>
                                 <tr>
                                     <td class="columna1">
-                                        Documento:
+                                        Identity document:
                                     </td>
                                     <td>
                                         <input type="text" name="documento">
@@ -115,7 +113,7 @@
                                 </tr>
                                 <tr>
                                     <td class="columna1">
-                                        Celular:
+                                        Phone:
                                     </td>
                                     <td>
                                         <input type="tel" name="celular" pattern="[0-9]{10}">
@@ -123,7 +121,7 @@
                                 </tr>
                                 <tr>
                                     <td class="columna1">
-                                        Correo:
+                                        Email:
                                     </td>
                                     <td>
                                         <input type="email" name="correo">
@@ -131,44 +129,42 @@
                                 </tr>
                                 <tr>
                                     <td class="columna1">
-                                        Sexo:
+                                        Sex:
                                     </td>
                                     <td>
-                                        Hombre <input type="radio" name="sexo" value="hombre">
+                                        Male <input type="radio" name="sexo" value="hombre">
                                         &nbsp;&nbsp;&nbsp;
-                                        Mujer <input type="radio" name="sexo" value="mujer">
+                                        Female <input type="radio" name="sexo" value="mujer">
                                     </td>
                                 </tr>
                                 <tr>
                                     <td class="columna1">
-                                        Motivo del contacto:
+                                        Reason:
                                     </td>
                                     <td>
                                         <select name="motivo-contacto" id="motivocont">
-                                            <option value="1">Información</option>
-                                            <option value="2">Queja</option>
-                                            <option value="3">Reclamo</option>
-                                            <option value="4">Sugerencia</option>
-                                            <option value="5" selected>Otro</option>
-
+                                            <option value="1">Information</option>
+                                            <option value="2">Complain</option>
+                                            <option value="3">Claim</option>
+                                            <option value="4">Suggestions</option>
+                                            <option value="5" selected>Other</option>
                                         </select>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td class="columna1">
-                                        Mensaje:
+                                        Message:
                                     </td>
                                     <td>
-                                        <textarea name="mensaje" id="mensajecont" cols="30" rows="3">
-                                        </textarea>
+                                        <textarea name="mensaje" id="mensajecont" cols="30" rows="3"></textarea>
                                     </td>
                                 </tr>
                                 <tr style="text-align: center;">
                                     <td>
-                                        <input type="reset" value="Limpiar" class="botonesform">
+                                        <input type="reset" value="Clean" class="botonesform">
                                     </td>
                                     <td>
-                                        <input type="submit" value="Enviar" class="botonesform">
+                                        <input type="submit" value="Send" class="botonesform">
                                     </td>
                                 </tr>
                             </table>
@@ -181,13 +177,12 @@
     <footer>
         <div class="cont-footer">
             <div class="footer">
-                <h4>SOBRE NOSOTROS</h4>
-                <p class="pfooter">Somos una empresa dedicada principalmente a
-                    la personalización de motos mediante el diseño
-                    y pintura de sus partes </p>
+                <h4>ABOUT US</h4>
+                <p class="pfooter">We are a company mainly dedicated to customizing motorcycles by designing and
+                    painting their parts</p>
             </div>
             <div class="footer">
-                <h4>NUESTROS DATOS</h4>
+                <h4>CONTACT</h4>
                 <ul class="footer2">
                     <li><img src="../images/telefono_headerblanco.png" alt="Telefono">+57 312-345-6789</li>
                     <li><img src="../images/ubicacion_blanco.png" alt="Direccion">Bogota CraX#XX-XX</li>
@@ -195,16 +190,16 @@
                 </ul>
             </div>
             <div class="footer">
-                <h4>SERVICIOS</h4>
+                <h4>SERVICES</h4>
                 <ul class="servicios">
-                    <li>Personalizamos tu moto</li>
-                    <li>Pintura de piezas para moto</li>
-                    <li>Catalogo de diseños</li>
-                    <li>Cotización de servicio</li>
+                    <li>Customize your bike</li>
+                    <li>Paint of parts and bikes</li>
+                    <li>Catalogue of design</li>
+                    <li>Price of services</li>
                 </ul>
             </div>
             <div class="footer">
-                <h4>NUESTRO LOCAL</h4>
+                <h4>OUR LOCATION</h4>
                 <div class="mapa">
                     <img src="../images/mapa.jpg" alt="mapa">
                 </div>
